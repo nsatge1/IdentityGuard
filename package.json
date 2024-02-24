@@ -1,0 +1,22 @@
+{
+  "name": "projetidentity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.6.31",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "http-server": "^14.1.1",
+    "web3": "^1.10.0"
+  }
+}

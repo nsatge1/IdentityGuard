@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Déploiement du Contrat</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.3.6/dist/web3.min.js"></script>
+
+</head>
+<body>
+    <h1>Déploiement du Contrat</h1>
+    <form id="deploymentForm">
+        <label for="accountNumber">Numéro de Compte :</label>
+        <input type="text" id="accountNumber" required>
+        <br>
+        <label for="age">Âge :</label>
+        <input type="number" id="age" required>
+        <br>
+        <label for="securityNumber">Numéro de Sécurité :</label>
+        <input type="text" id="securityNumber" required>
+        <br>
+        <button type="button" onclick="deployContract()">Déployer le Contrat</button>
+        <button type="button" onclick="setCode()">Modifier Code</button>
+        <div id="AddressContract"></div>
+    </form>
+    <script src="deploy.js"></script>
+    
+</body>
+</html>
