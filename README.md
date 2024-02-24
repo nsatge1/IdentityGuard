@@ -8,9 +8,9 @@ Partie BlockChain
 Avant de commencer, assurez-vous d'avoir Node.js et npm installés sur votre machine. Vous pouvez les télécharger depuis [le site officiel de Node.js](https://nodejs.org/).
 
 sur linux
-```bash
+    ```bash
     sudo npm install
-
+    ```
 
 ## Installation
 
